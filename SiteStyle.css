@@ -8,8 +8,6 @@ h1{
   -webkit-text-stroke: 1.5px brown;
 }
 
-
-
 body{
   background-image: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)), url(GamesBackground.jpg);
   margin: 0% 0% 0% 0%;
@@ -50,5 +48,17 @@ body{
   width: 150px;
   float: left;
   margin: 0px 0px 0px 0px;
-  
+}
+
+.controllerMenu{
+  transform: scaleX(-1);
+  width: 100px;
+  margin-left: 10px;
+  border-color: brown;
+}
+
+.menuButton{
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0,0,0,0);
+  position: absolute;
 }
