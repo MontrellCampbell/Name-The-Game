@@ -1,0 +1,54 @@
+h1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: inline;
+  margin-top: 10%;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 5px;
+  -webkit-text-stroke: 1.5px brown;
+}
+
+
+
+body{
+  background-image: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)), url(GamesBackground.jpg);
+  margin: 0% 0% 0% 0%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.HomePageSearch{
+  color: whitesmoke;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+  border-radius: 10px;
+  border-color: brown;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 350px;
+  height: 25px;  
+}
+
+.HomePageSearch::placeholder{
+  color: whitesmoke;
+}
+
+.CenterPageElements{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+
+.SideMenu{
+  background-color: brown;
+  border-width: 1px;
+  border-style:double;
+  border-color:whitesmoke;
+  height: 969px;
+  width: 150px;
+  float: left;
+  margin: 0px 0px 0px 0px;
+  
+}
