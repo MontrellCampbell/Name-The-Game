@@ -39,26 +39,36 @@ body{
   left: 40%;
 }
 
-.SideMenu{
-  background-color: brown;
+#SideMenu{
+  background-color: black;
+  position: absolute;
   border-width: 1px;
   border-style:double;
   border-color:whitesmoke;
   height: 969px;
-  width: 150px;
+  width: 200px;
   float: left;
   margin: 0px 0px 0px 0px;
+  left: -210px;
+  transition: .4s;
+
+  
+}
+
+#SideMenu.active{
+  left: 0;
 }
 
 .controllerMenu{
   transform: scaleX(-1);
   width: 100px;
-  margin-left: 10px;
-  border-color: brown;
+  margin-left: 70px;
 }
 
 .menuButton{
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0,0,0,0);
   position: absolute;
+  cursor: pointer;
+  left: 150px;
 }
