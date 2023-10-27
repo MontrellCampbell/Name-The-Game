@@ -9,7 +9,7 @@ h1{
 }
 
 body{
-  background-image: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)), url(GamesBackground.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)), url(./resources/GamesBackground.jpg);
   margin: 0% 0% 0% 0%;
   background-position: center;
   background-attachment: fixed;

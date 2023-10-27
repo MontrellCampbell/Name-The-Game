@@ -3,40 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Home - NameTheGame</title>
   <link rel="stylesheet" type="text/css" href="SiteStyle.css"/>
-  <script>
-    function show()
-    {
-      document.getElementById('SideMenu').classList.toggle('active');
-    }
-  </script>
 </head>
 <body onload="onLoad()">
   <div>
     <div class ="CenterPageElements">
       <h1>NAME THE GAME</h1>
-      <form action="." method="post" role="search">
+      <form method="post" role="search" style="text-align: center;">
         <input id="search-bar" type="search" class="HomePageSearch" placeholder="Search Game">
       </form>
     </div>
 
-
     <div id="SideMenu">
-      <div class="toggle-btn" onclick="show()">
+      <div id="side-menu-button" class="toggle-btn">
         <button type="submit" class="menuButton">
-        <img class="controllerMenu" src="menuController.png">
+        <img class="controllerMenu" src="./resources/menuController.png">
         </button>
       </div>
       <ul>
 
       </ul>
     </div>
-      
-    </a>
-    </div>
     
-    
+    <!-- Load in javascript -->
     <script type="text/javascript" src="./js/index.js" defer></script>
   </div>
 </body>
