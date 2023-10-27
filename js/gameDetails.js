@@ -4,7 +4,9 @@
 function onLoad() {
     console.log('Loaded');
 
-    const queryString = sessionStorage.getItem("search-query");
+    // Get the information from the url parameters
+    const parameters = new URLSearchParams(window.location.search);
+    const queryString = parameters.get("search-query");
     console.log(`Data from search bar: '${queryString}'`);
 
     // Ideal way to retrieve data from endpoint
