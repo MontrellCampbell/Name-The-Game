@@ -8,6 +8,18 @@ h1{
   -webkit-text-stroke: 1.5px brown;
 }
 
+h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: inline;
+  margin-top: 10%;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 5px;
+  -webkit-text-stroke: 1.5px brown;
+  text-decoration: underline;
+  margin-left: 30px;
+}
+
 body{
   background-image: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)), url(GamesBackground.jpg);
   margin: 0% 0% 0% 0%;
@@ -44,7 +56,7 @@ body{
   position: absolute;
   border-width: 1px;
   border-style:double;
-  border-color:whitesmoke;
+  border-color:brown;
   height: 969px;
   width: 200px;
   float: left;
@@ -72,3 +84,20 @@ body{
   cursor: pointer;
   left: 150px;
 }
+
+.menuItems{
+  color: white;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  font-weight: 1000;
+}
+
+.menuItems li{
+  margin-bottom: 80px;
+}
+
+
