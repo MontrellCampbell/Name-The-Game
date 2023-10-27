@@ -5,7 +5,7 @@ function onLoad() {
     console.log('Loaded');
 
     const queryString = sessionStorage.getItem("search-query");
-    console.log(queryString);
+    console.log(`Data from search bar: '${queryString}'`);
 
     // Ideal way to retrieve data from endpoint
     // const data = getGame(queryString);
