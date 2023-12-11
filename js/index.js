@@ -18,7 +18,13 @@ function onSearchBarSubmit(event) {
 
     // Save query string as URL parameters for the next page
     const formElement = document.getElementById("form-search-bar");
-    formElement.setAttribute("action", `gameDetails.html?search-box-text=${searchBoxText}`);
+    formElement.setAttribute("action", `games.html?search-box-text=${searchBoxText}`);
+    localStorage.setItem("gdPageURL", `games.html?search-box-text=${searchBoxText}`);
+}
+
+function sendSearch()
+{
+    return document.getElementById("search-bar").value;
 }
 
 // When page loads
